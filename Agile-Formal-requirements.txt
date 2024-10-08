@@ -1,0 +1,26 @@
+## Agile
+
+1. User Story 1 & 2:
+    - As a vanilla git power-user that has never see GiggleGit before, I want to easily understand how the meme-based merging works, so that I can use it without confusion.
+    - As a team lead onboarding an experienced GiggleGit user, I want to ensure my team members have resources and documentation so they have no trouble navigating and using GiggleGit.
+2. New User Story:
+    - As a developer using GiggleGit, I want to customize the meme-based merge system so it aligns with my team’s preferences.
+    - Task: Customize meme-based merge system.
+    - Ticket 1: Implement customization feature for meme-based merges so that users are able to upload their own memes or select from pre-defined set of memes.
+    - Ticket 2: Add a settings panel for configuring meme likings. This can be done by creating an interface where users can manage their meme options.
+3. The statement “As a user I want to be able to authenticate on a new machine” is not a user story because it is more of a requirement or functionality rather than a user’s goal or motivation. This statement describes a feaure without providing context about the user’s goal. 
+
+## Formal Requirements
+
+1. Goal & Non-goal:
+    - Goal: Ensure the new SnickerSync can integrate with existing GiggleGit system, allowing users to sync with a snicker sound and visual feedback during merges.
+    - Non-Goal: SnickerSync isn’t intended to dynamically change meme content during the sync process.
+2. Two non-functional requirements:
+    - Ensure that only authorized users can access SnickerSync.
+        - Functional requirements:
+            - Implement an authentication and authorization system.
+            - Restrict access to SnickerSync’s ser study data based on user roles so that only authorized users can access user data.
+    - The interface should provide clear feedback and be intuitive for all users.
+        - Functional requirements:
+            - Add snicker sound effect when a merge is successful.
+            - Show animated visual feedback like a meme when SnickerSync is used.
